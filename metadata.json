@@ -1,0 +1,6 @@
+{
+  "name": "The Digital Paradigm",
+  "description": "US-focused digital agency providing software development, mobile apps, digital marketing, UI/UX design, e-commerce, and enterprise AI solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
