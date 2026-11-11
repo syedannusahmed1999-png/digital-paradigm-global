@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Users, Code, Award, CheckCircle2, ArrowRight, MapPin, Phone, Mail } from 'lucide-react';
+import heroImage from '../assets/images/hero_digital_paradigm_agency_1793033404813.jpg';
 
 interface AboutPageProps {
   onNavigate: (path: string) => void;
@@ -50,7 +51,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenEstimato
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900">
                 <img
-                  src="/src/assets/images/hero_digital_paradigm_agency_1793033404813.jpg"
+                  src={heroImage}
                   alt="The Digital Paradigm Headquarters Studio"
                   referrerPolicy="no-referrer"
                   className="w-full h-[360px] sm:h-[420px] object-cover"

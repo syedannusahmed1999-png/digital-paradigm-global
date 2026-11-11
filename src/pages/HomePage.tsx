@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ArrowRight, ChevronDown, CheckCircle2, Shield, Zap, Layers, Sparkles, ShoppingBag, Palette, Cpu, Terminal, ArrowUpRight } from 'lucide-react';
 import { SERVICES_DATA } from '../data/servicesData';
 import { CASE_STUDIES } from '../data/caseStudiesData';
+import heroImage from '../assets/images/hero_digital_paradigm_agency_1793033404813.jpg';
 
 interface HomePageProps {
   onNavigate: (path: string) => void;
@@ -104,7 +105,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEstimator 
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900">
                 <img
-                  src="/src/assets/images/hero_digital_paradigm_agency_1793033404813.jpg"
+                  src={heroImage}
                   alt="The Digital Paradigm Austin Engineering and Design Studio"
                   referrerPolicy="no-referrer"
                   className="w-full h-[380px] sm:h-[440px] object-cover"

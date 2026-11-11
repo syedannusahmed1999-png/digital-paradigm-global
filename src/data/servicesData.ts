@@ -1,4 +1,8 @@
 import { ServiceCategory } from '../types';
+import appDevelopmentImage from '../assets/images/app_development_showcase_1793033405785.jpg';
+import ecommerceImage from '../assets/images/ecommerce_retail_dashboard_1793033406114.jpg';
+import heroImage from '../assets/images/hero_digital_paradigm_agency_1793033404813.jpg';
+import aiImage from '../assets/images/ai_software_architecture_1793033405798.jpg';
 
 export const SERVICES_DATA: Record<string, ServiceCategory> = {
   'app-development': {
@@ -8,7 +12,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'From native iOS and Android experiences to high-performance Flutter and React Native cross-platform apps, we build resilient mobile products engineered for scale.',
     heroHeadline: 'Custom Mobile & Cross-Platform App Development for High-Growth US Businesses',
     heroDescription: 'We design, engineer, and deploy mission-critical mobile applications that achieve top App Store ratings, sub-second response times, and frictionless user experiences.',
-    image: '/src/assets/images/app_development_showcase_1793033405785.jpg',
+    image: appDevelopmentImage,
     metrics: [
       { label: 'Avg App Store Rating', value: '4.85 ★' },
       { label: 'Production Releases', value: '120+' },
@@ -128,7 +132,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'Accelerate qualified pipeline and customer acquisition through precision SEO, ROI-led Paid Media, high-converting social campaigns, and authoritative content.',
     heroHeadline: 'Performance Digital Marketing & Organic Search Engines for US Enterprises',
     heroDescription: 'We eliminate vanity metrics and build scalable growth engines focused on customer acquisition cost (CAC) reduction, search authority, and verified pipeline revenue.',
-    image: '/src/assets/images/hero_marketing_studio_reference.jpg', // Will fallback cleanly if needed
+    image: heroImage,
     metrics: [
       { label: 'Avg Inbound Lead Increase', value: '+142%' },
       { label: 'Managed Annual Ad Spend', value: '$18M+' },
@@ -234,7 +238,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'Build, optimize, and scale DTC and B2B digital commerce stores on Shopify Plus, BigCommerce, WooCommerce, and headless bespoke architectures.',
     heroHeadline: 'High-Converting E-Commerce Stores & Scalable Merchant Architectures',
     heroDescription: 'From high-growth Shopify Plus flagships to complex multi-currency custom commerce engines, we deliver lightning-fast checkout experiences that maximize Average Order Value (AOV).',
-    image: '/src/assets/images/ecommerce_retail_dashboard_1793033406114.jpg',
+    image: ecommerceImage,
     metrics: [
       { label: 'Client Annual GMV Processed', value: '$85M+' },
       { label: 'Avg Mobile Checkout Uplift', value: '+34%' },
@@ -340,7 +344,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'Craft memorable brand identities, high-converting design systems, and intuitive UI/UX for web, mobile, and digital products.',
     heroHeadline: 'User-Centered UI/UX, Brand Systems & Conversion-Driven Digital Design',
     heroDescription: 'Great design is measurable. We combine human psychology, rigorous user research, and world-class visual aesthetics to turn complex products into intuitive digital experiences.',
-    image: '/src/assets/images/hero_digital_paradigm_agency_1793033404813.jpg',
+    image: heroImage,
     metrics: [
       { label: 'UX Usability Test Score', value: '94/100' },
       { label: 'Design Systems Built', value: '80+' },
@@ -474,7 +478,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'Deploy custom generative AI models, autonomous multi-agent systems, intelligent RAG pipelines, and automated business workflows that reduce operational overhead.',
     heroHeadline: 'Custom AI Engineering, Autonomous Agents & Enterprise Generative Models',
     heroDescription: 'Move beyond shallow wrappers. We engineer production-ready AI architectures featuring retrieval-augmented generation (RAG), autonomous tool-calling agents, and fine-tuned private models.',
-    image: '/src/assets/images/ai_software_architecture_1793033405798.jpg',
+    image: aiImage,
     metrics: [
       { label: 'Model Latency (p95)', value: '< 420ms' },
       { label: 'Hallucination Mitigation', value: '99.4% Verified' },
@@ -594,7 +598,7 @@ export const SERVICES_DATA: Record<string, ServiceCategory> = {
     summary: 'Engineer mission-critical web applications, high-concurrency SaaS platforms, custom CMS architectures, and executive dashboards designed for operational resilience.',
     heroHeadline: 'Custom Software Development, Scalable Web Applications & Business Systems',
     heroDescription: 'We build the mission-critical software that powers ambitious US companies. From high-throughput SaaS backends to custom internal dashboards and integrations, we deliver robust engineering without technical debt.',
-    image: '/src/assets/images/hero_digital_paradigm_agency_1793033404813.jpg',
+    image: heroImage,
     metrics: [
       { label: 'Backend Availability SLA', value: '99.99%' },
       { label: 'SaaS Platforms Architected', value: '65+' },

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronDown, Shield, Code, Cpu, Terminal, ArrowUpRight } from 'lucide-react';
 import { SERVICES_DATA } from '../data/servicesData';
 import { CASE_STUDIES } from '../data/caseStudiesData';
+import heroImage from '../assets/images/hero_digital_paradigm_agency_1793033404813.jpg';
 
 interface ServicePageProps {
   slug: string;
@@ -101,7 +102,7 @@ export const ServicePage: React.FC<ServicePageProps> = ({ slug, onNavigate, onOp
                   className="w-full h-[360px] sm:h-[420px] object-cover"
                   onError={(e) => {
                     // Fallback to agency studio image
-                    (e.target as HTMLImageElement).src = '/src/assets/images/hero_digital_paradigm_agency_1793033404813.jpg';
+                    (e.target as HTMLImageElement).src = heroImage;
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
